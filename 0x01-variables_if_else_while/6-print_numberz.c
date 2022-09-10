@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *
  * main - print if the number is postive, zero, or negative
  *
  * Description: using the main function
@@ -8,14 +9,13 @@
  */
 int main(void)
 {
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+int i;
+for (i = 0; i < 10; i++)
 {
-if (ch != 'e' && ch != 'q')
-{
-       	putchar(ch);
+	printf("%i", i);
+
 }
-}
-putchar('\n');
+printf("\n");
 return (0);
+
 }
