@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Print the string in the put function
 * 
@@ -8,7 +7,7 @@
 * Return: 0                                                                                                        */
 int main(void)               
 {
-       	char a;
+	char a;
 	int b;
 	long int c;
 	long long int d;
