@@ -1,11 +1,11 @@
 #include "main.h"
-      
 /**
- *_strcat - function commute srtings
- * @dest: param pointer to a char
- * @s: param pointer to a char
- *
- * Return: return value of dest
+ *_strcat -concatenates the string pointed to by
+ * the end of the string pointed to by @dest
+ * @dest: String that will be appended
+ * @src: String to be concatenated upon
+ * 
+ *  Return: returns value of dest
  */
 
 char *_strcat(char *dest, char *src)
