@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "variadic_functions.h"
 
-/**
+/ll.c**
  * print_c - print a char
  * @c: char to print
  *
@@ -86,7 +86,7 @@ void print_all(const char * const format, ...)
 			j++;
 		}
 		i++;
-	}
+	}i
 	va_end(valist);
 	printf("\n");
 }
